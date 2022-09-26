@@ -1,7 +1,17 @@
 body {
     text-align: center;
-    background: rgb(122, 105, 67);
+    background: rgb(212, 130, 181);
 }
 .capa {
     width: 100%;
+}
+img {
+    width: 500px;
+    height: 500px;
+}
+img, p {
+    display: inline-block;
+}
+img, p {
+    float: center;
 }
