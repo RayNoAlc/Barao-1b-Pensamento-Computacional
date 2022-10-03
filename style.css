@@ -17,5 +17,14 @@ img, p {
 }
 .beneficios {
 text-align: left;
+
 background-color: rgb(255, 166, 240);
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 200px;
+}
+li{
+    padding: 20px;
 }
