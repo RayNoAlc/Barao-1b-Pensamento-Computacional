@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background: rgb(212, 130, 181);
+    background: rgb(109, 70, 44);
 }
 .capa {
     width: 100%;
@@ -14,4 +14,8 @@ img, p {
 }
 img, p {
     float: center;
+}
+.beneficios {
+text-align: left;
+background-color: rgb(255, 166, 240);
 }
