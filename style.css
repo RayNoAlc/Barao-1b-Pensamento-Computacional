@@ -28,3 +28,47 @@ ul{
 li{
     padding: 20px;
 }
+body {
+    text-align: center;
+    background-color: tan;
+}
+.capa {
+    width: 100%;
+}
+img {
+    width: 500px;
+    height: 500px;
+}
+img, p {
+    display: inline-block;
+}
+img, p {
+    float: center;
+}
+.beneficios {
+text-align: left;
+
+background-color: rgb(255, 166, 240);
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 200px;
+}
+li{
+    padding: 20px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(184, 143, 90);
+    padding: 20px 20px;
+  }
+  
+  nav {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
