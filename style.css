@@ -2,49 +2,45 @@ body {
     text-align: center;
     background-color: tan;
 }
-.capa {
-    width: 100%;
+header {
+    padding: 20px 0;
 }
-img {
-    width: 500px;
-    height: 500px;
+.caixa {
+    display: inline;
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
 }
-img, p {
-    display: inline-block;
+h3 {
+    text-align: left;
 }
-img, p {
-    float: center;
+.imagem-logo {
+    width: 200px;
+    margin-left: 18px;
+    border-radius: 90px;
+    box-shadow: 2px 2px 2px #111111;
 }
-.beneficios {
-text-align: left;
+nav {
+    position: absolute;
+    top: 90px;
+    right: 65px;
+}
+nav a {
+    font-size: 25px;
+    padding-left: 20px;
+    color: #131313;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover{
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 3px 5px rgb(255, 129, 129);
+    color: rgb(240, 87, 87);
+    transition: 0.5s;
 
-background-color: rgb(255, 166, 240);
 }
-ul{
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 200px;
-}
-li{
-    padding: 20px;
-}
-body {
-    text-align: center;
-    background-color: tan;
-}
-.capa {
-    width: 100%;
-}
-img {
-    width: 500px;
-    height: 500px;
-}
-img, p {
-    display: inline-block;
-}
-img, p {
-    float: center;
-}
+    
 .beneficios {
 text-align: left;
 
@@ -63,7 +59,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(143, 109, 64);
+    background-color: rgb(253, 253, 253);
     padding: 20px 20px;
   }
   
@@ -72,3 +68,4 @@ header {
     display: flex;
     justify-content: space-between;
   }
+  
